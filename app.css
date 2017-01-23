@@ -18,7 +18,7 @@
 	position:absolute;	
 	border:1px solid red;
 	z-index:6000;
-	opacity:0.5;
+	opacity:0;
 	}	
 	
 .btnClose {
