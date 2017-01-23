@@ -500,30 +500,42 @@ body {
 }
 
 .bg_22_slide {
-	background-image: url(img/1/5_22/5_22_1.png);	
+	background-image: url(img/1/5/5_22/5_22_1.png);	
 }
 
 .bg_23_slide {
-	background-image: url(img/1/5_23.png);	
+	background-image: url(img/1/5/5_23.png);	
 }
 
 .bg_24_slide {
-	background-image: url(img/1/6_24.png);	
+	background-image: url(img/1/6/6_24.png);	
 }
 
 .bg_25_slide {
-	background-image: url(img/1/6_25.png);	
+	background-image: url(img/1/6/6_25.png);	
 }
 
 .bg_26_slide {
-	background-image: url(img/1/6_26/6_26_1.png);	
+	background-image: url(img/1/6/6_26/6_26_1.png);	
 }
 
 .bg_27_slide {
-	background-image: url(img/1/6_27.png);	
+	background-image: url(img/1/6/6_27.png);	
 }
 
+#popup1 .bg,
+#popup2 .bg,
+#popup3 .bg {
+	z-index:7000;
+}
 
+.popup_close  {
+	top: 46px;	
+	right: 0px;	
+	width: 150px;	
+	height: 250px;
+	z-index:9000;	
+}
 
 
 /*00-slide*/ 
@@ -695,9 +707,80 @@ body {
 	background-image: url(img/1/4/4_20/4_20_2.png);		
 }
 
-.popup_close  {
-	top: 46px;	
-	right: 0px;	
-	width: 250px;	
-	height: 250px;	
+
+
+/*21-slide*/
+
+.slide_21_tap_1 {
+    top: 181px;
+    left: 30px;
+    width: 247px;
+    height: 51px;
+}
+
+.slide_21_tap_2 {
+    top: 181px;
+    left: 277px;
+    width: 247px;
+    height: 51px;
+}
+
+.bg_21_slide_2 {
+	background-image: url(img/1/4/4_21/4_21_2.png);	
+}
+
+.bg_21_slide_3 {
+	background-image: url(img/1/4/4_21/4_21_3.png);	
+}
+
+/*22-slide*/
+
+.slide_22_popup_1 {
+    top: 289px;
+    left: 29px;
+    width: 288px;
+    height: 258px;
+}
+
+.slide_22_popup_2 {
+    top: 289px;
+    left: 356px;
+    width: 288px;
+    height: 258px;
+}
+
+.slide_22_popup_3 {
+    top: 289px;
+    left: 683px;
+    width: 288px;
+    height: 258px;
+}
+
+.bg_22_slide_2 {
+	background-image: url(img/1/5/5_22/5_22_2.png);		
+}
+
+.bg_22_slide_3 {
+	background-image: url(img/1/5/5_22/5_22_3.png);		
+}
+
+.bg_22_slide_4 {
+	background-image: url(img/1/5/5_22/5_22_4.png);		
+}
+
+.bg_22_slide_4__wrapper {
+		position: absolute;
+    width: 924px;
+    height: 620px;
+    top: 112px;
+    left: 55px;
+    background-color: #fff;
+    overflow-y: scroll;
+    z-index: 7500;
+    -webkit-overflow-scrolling: touch;
+}
+
+.bg_22_slide_4__wrapper_img {
+		position: relative;	
+		width: 100%;
 }

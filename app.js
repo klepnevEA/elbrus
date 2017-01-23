@@ -40,8 +40,17 @@ app.init = function(e)
 
 		var menu = prev;
 		if(menu == '1') {
-			$('#menu>li').removeClass('xclmHidden');
-
+			$('#menu>li').addClass('xclmHidden');
+			$('.00-slide').removeClass('xclmHidden');
+			$('.02-slide').removeClass('xclmHidden');
+			$('.04-slide').removeClass('xclmHidden');
+			$('.10-slide').removeClass('xclmHidden');
+			$('.20-slide').removeClass('xclmHidden');
+			$('.22-slide').removeClass('xclmHidden');
+			$('.24-slide').removeClass('xclmHidden');			
+			$('.48-slide').removeClass('xclmHidden');
+			$('.301-slide').removeClass('xclmHidden');
+			$('.302-slide').removeClass('xclmHidden');			
 			$('#menu').addClass('menu_1');
 			$('#menu').removeClass('menu_2');									
 			// $('.00-slide').addClass('xclmHidden');								
