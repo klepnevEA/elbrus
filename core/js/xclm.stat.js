@@ -63,12 +63,12 @@
 	}
 
 	/*автоматический переход на первый слайд*/
-	var delay = 150000;
-	var timer = setTimeout(timerStart, delay);
+	// var delay = 150000;
+	// var timer = setTimeout(timerStart, delay);
 	             
-	function timerStart() {
-	    xclm.nav.go($('#menu .00-slide').find('a').attr('data-slide-go'));
-	};	
+	// function timerStart() {
+	//     xclm.nav.go($('#menu .00-slide').find('a').attr('data-slide-go'));
+	// };	
 
 	/**
 	 * Начало отображения слайда

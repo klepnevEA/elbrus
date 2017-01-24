@@ -1,12 +1,23 @@
 @font-face {
-    font-family: 'RotondaC'; 
-    src: url(fonts/RotondaC.otf); 
-   }
-   
- @font-face {
-    font-family: 'RotondaC-Bold'; 
-    src: url(fonts/RotondaC-Bold.otf); 
-   } 
+	font-family: 'YanusC';
+	src: url('fonts/YanusC.eot');
+	src: url('fonts/YanusC.eot?#iefix') format('embedded-opentype'),
+		url('fonts/YanusC.woff') format('woff'),
+		url('fonts/YanusC.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'YanusCBold';
+	src: url('fonts/YanusC-Bold.eot');
+	src: url('fonts/YanusC-Bold.eot?#iefix') format('embedded-opentype'),
+		url('fonts/YanusC-Bold.woff') format('woff'),
+		url('fonts/YanusC-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
 
 
 
@@ -18,7 +29,7 @@
 	position:absolute;	
 	border:1px solid red;
 	z-index:6000;
-	opacity:0.5;
+	opacity:0;
 	}	
 	
 .btnClose {
@@ -691,12 +702,23 @@ body {
 }
 
 
+.bg_48_slide {
+	background-image: url(img/3/3/3_48_1.png);		
+}
+
+.bg_302_slide {
+	background-image: url(img/4/4_49.png);	
+}
+
 
 
 #popup1 .bg,
 #popup2 .bg,
-#popup3 .bg {
+#popup3 .bg,
+#popup4 .bg {
 	z-index:7000;
+	background-color: rgba(0,0,0,0.5);
+
 }
 
 .popup_close  {
@@ -705,6 +727,10 @@ body {
 	width: 150px;	
 	height: 550px;
 	z-index:9000;	
+}
+
+.popup_close__height_100 {
+	height: 100px;	
 }
 
 
@@ -723,6 +749,82 @@ body {
     left: 323px;
 }
 
+.btn__00-slide_3,
+.btn__00-slide_4 {
+    top: 0px;
+    left: 774px;
+    width: 120px;
+    height: 45px;
+}
+
+.btn__00-slide_4 {
+    left: 898px;
+    width: 62px;
+}
+
+/*02-slide*/
+
+.fo_select, .reg_select {
+    position: absolute;
+    top: 199px;
+    left: 56px;
+    border: 1px solid #dbe2e7;
+    font-size: 20px;
+    width: 430px;
+    padding: 6px 30px 6px 6px;
+	background-color: #eff2f4;
+	background-size: auto 100%;
+	background-image: url(img/select.png);
+	background-repeat: no-repeat;
+	background-position: right 0;
+	    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+	font-family: 'YanusC';    
+}
+
+.reg_select {
+    left: 537px;
+
+}
+
+.st4, .potentia, .st34 {
+	display: inline-block;
+	position: absolute;
+    font-size: 33px;
+    top: 370px;
+    left: 581px;
+    width: 135px;
+    text-align: center;
+  color: #003399;
+	font-family: 'YanusCBold';    	
+}
+
+.potentia {
+	left: 787px;
+	color: #ff6600;
+}
+
+.st34 {
+    top: 439px;
+    font-size: 40px;
+    left: 684px;
+    color: #003399;
+}
+
+.regions {
+    position: absolute;
+    width: 413px;
+    top: 325px;
+    left: 79px;
+}
+
+.regions_2 {
+    position: absolute;
+    width: 438px;
+    top: 347px;
+    left: 79px;	
+}
 
 /*04-slide*/
 
@@ -878,6 +980,49 @@ body {
 }
 
 
+.bg_20_slide_3 {
+	background-image: url(img/1/4/4_20/4_20_3.png);	
+    background-color: rgba(0,0,0,0) !important;	
+}
+
+.bg_20_slide_4 {
+	background-image: url(img/1/4/4_20/4_20_4.png);
+    background-color: rgba(0,0,0,0) !important;		
+}
+
+
+.slide_20_tap_1 {
+  top: 351px;
+  left: 29px;
+	width: 100px;
+	height: 100px;
+	z-index:9000;
+}
+
+.slide_20_tap_2 {
+	top: 351px;
+	right: 29px;
+	width: 100px;
+	height: 100px;
+	z-index:9000;
+}
+
+.slide_20_tap_1_2 {
+    top: 148px;
+    left: 133px;
+    width: 247px;
+    height: 51px;
+    z-index:9000;	
+}
+
+.slide_20_tap_2_2 {
+    top: 148px;
+    left: 381px;
+    width: 247px;
+    height: 51px;
+    z-index:9000;
+}
+
 
 /*21-slide*/
 
@@ -944,7 +1089,6 @@ body {
     height: 620px;
     top: 112px;
     left: 55px;
-    background-color: #fff;
     overflow-y: scroll;
     z-index: 7500;
     -webkit-overflow-scrolling: touch;
@@ -1216,4 +1360,40 @@ body {
 }
 .bg_116_slide_3 {
 	background-image: url(img/2/3/3_43/3_43_3.png);	
+}
+
+
+/*48-slide*/
+
+.pdf-container-outer {
+	position:fixed;
+	top:0px;
+	left:0px;
+	width: 1024px; 
+	height: 800px; 
+	overflow-y: scroll !important; 
+	overflow-x: none !important; 
+	-webkit-overflow-scrolling: touch; 
+	background-color:#eee;
+	z-index:7000;
+	} 
+	
+
+iframe { 
+	width: 610px; 
+	}
+
+.popup_pdf_close {
+    position: absolute;
+    top: 50px;
+    left: 950px;
+    width: 45px;
+    z-index: 9000;
+
+}
+
+/*301-slide*/
+
+.pdf-container-outer__z-index_100 {
+	z-index:100;	
 }

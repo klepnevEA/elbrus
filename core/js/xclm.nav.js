@@ -54,9 +54,12 @@ var xclmNav = function()
 	this.goByIndex = function(slideNumber)
 	{
 //		console.log('Go by id to slide '+slideNumber);
-		console.log()
-		var slideName = that.workflow[slideNumber]['name'];
-		that.go(slideName);
+		setTimeout(function(){
+				var slideName = that.workflow[slideNumber]['name'];
+				that.go(slideName);
+
+		}, 100);
+
 	}
 	
 	/**
