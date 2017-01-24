@@ -18,7 +18,7 @@
 	position:absolute;	
 	border:1px solid red;
 	z-index:6000;
-	opacity:0;
+	opacity:0.5;
 	}	
 	
 .btnClose {
@@ -72,7 +72,7 @@ body {
 
 
 
-.menu_1.xclmMenu>li:nth-child(1) {
+.xclmMenu>li:nth-child(1) {
 	width: 72px;
 	background-image: url('img/menu_1_off/menu_1_off_1.png');
 	margin-left:5px;	
@@ -113,12 +113,12 @@ body {
 	background-image: url('img/menu_1_off/menu_1_off_8.png');
 }	
 
-.menu_1.xclmMenu>li:nth-child(9) {
+.xclmMenu>li:nth-child(14) {
 	width: 68px;
 	background-image: url('img/menu_1_off/menu_1_off_9.png');
 }	
 
-.menu_1.xclmMenu>li:nth-child(10) {
+.xclmMenu>li:nth-child(15) {
 	width: 66px;
 	background-image: url('img/menu_1_off/menu_1_off_10.png');
 }
@@ -126,7 +126,7 @@ body {
 
 /*menu_1 active*/
 
-.menu_1.xclmMenu>li:nth-child(1).xclmMenuActive {
+.xclmMenu>li:nth-child(1).xclmMenuActive {
 	background-image: url('img/menu_1_on/menu_1_on_1.png');
 }
 
@@ -158,13 +158,95 @@ body {
 	background-image: url('img/menu_1_on/menu_1_on_8.png');
 }	
 
-.menu_1.xclmMenu>li:nth-child(9).xclmMenuActive {
+.xclmMenu>li:nth-child(14).xclmMenuActive {
 	background-image: url('img/menu_1_on/menu_1_on_9.png');
 }	
 
-.menu_1.xclmMenu>li:nth-child(10).xclmMenuActive {
+.xclmMenu>li:nth-child(15).xclmMenuActive {
 	background-image: url('img/menu_1_on/menu_1_on_10.png');
 }
+
+
+
+/*menu_2*/
+
+
+.menu_2.xclmMenu>li:nth-child(9) {
+	width: 193px;
+	background-image: url('img/menu_2_off/menu_2_off_2.png');
+}
+
+.menu_2.xclmMenu>li:nth-child(10) {
+	width: 195px;
+	background-image: url('img/menu_2_off/menu_2_off_3.png');
+}	
+
+.menu_2.xclmMenu>li:nth-child(11) {
+	width: 195px;
+	background-image: url('img/menu_2_off/menu_2_off_4.png');
+}	
+
+.menu_2.xclmMenu>li:nth-child(12) {
+	width: 195px;
+	background-image: url('img/menu_2_off/menu_2_off_5.png');
+}	
+
+.menu_2.xclmMenu>li:nth-child(13) {
+	width: 135px;
+	background-image: url('img/menu_2_off/menu_2_off_6.png');
+}	
+
+
+
+// /*menu_2 active*/
+
+
+.menu_2.xclmMenu>li:nth-child(9).xclmMenuActive {
+	background-image: url('img/menu_2_on/menu_2_on_2.png');
+}
+
+.menu_2.xclmMenu>li:nth-child(10).xclmMenuActive {
+	background-image: url('img/menu_2_on/menu_2_on_3.png');
+}	
+
+.menu_2.xclmMenu>li:nth-child(11).xclmMenuActive {
+	background-image: url('img/menu_2_on/menu_2_on_4.png');
+}	
+
+.menu_2.xclmMenu>li:nth-child(12).xclmMenuActive {
+	background-image: url('img/menu_2_on/menu_2_on_5.png');
+}	
+
+.menu_2.xclmMenu>li:nth-child(13).xclmMenuActive {
+	background-image: url('img/menu_2_on/menu_2_on_6.png');
+}	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*menuCover*/	
 
 	
@@ -522,6 +604,93 @@ body {
 .bg_27_slide {
 	background-image: url(img/1/6/6_27.png);	
 }
+
+
+
+/*вторая презентация*/
+
+.bg_101_slide {
+	background-image: url(img/2/1/1_28/1_28_1.png);	
+}
+
+.bg_102_slide {
+	background-image: url(img/2/1/1_29/1_29.png);	
+}
+
+.bg_103_slide {
+	background-image: url(img/2/1/1_30/1_30_1.png);	
+}
+
+.bg_104_slide {
+	background-image: url(img/2/1/1_31/1_31.png);	
+}
+
+.bg_105_slide {
+	background-image: url(img/2/2/2_32/2_32_1.png);	
+}
+
+.bg_106_slide {
+	background-image: url(img/2/2/2_33.png);	
+}
+
+.bg_107_slide {
+	background-image: url(img/2/2/2_34.png);	
+}
+
+.bg_108_slide {
+	background-image: url(img/2/2/2_35.png);	
+}
+
+.bg_109_slide {
+	background-image: url(img/2/2/2_36/2_36_1.png);	
+}
+
+.bg_110_slide {
+	background-image: url(img/2/2/2_37/2_37_1.png);	
+}
+
+.bg_111_slide {
+	background-image: url(img/2/2/2_38/2_38_1.png);	
+}
+
+.bg_112_slide {
+	background-image: url(img/2/3/3_39/3_39_1.png);	
+}
+
+.bg_113_slide {
+	background-image: url(img/2/3/3_40.png);	
+}
+
+.bg_114_slide {
+	background-image: url(img/2/3/3_41/3_41_1.png);	
+}
+
+.bg_115_slide {
+	background-image: url(img/2/3/3_42.png);	
+}
+
+.bg_116_slide {
+	background-image: url(img/2/3/3_43/3_43_1.png);	
+}
+
+.bg_116_slide {
+	background-image: url(img/2/3/3_44.png);	
+}
+
+.bg_117_slide {
+	background-image: url(img/2/4/4_45.png);	
+}
+
+.bg_118_slide {
+	background-image: url(img/2/4/4_46.png);	
+}
+
+.bg_119_slide {
+	background-image: url(img/2/4/4_47.png);	
+}
+
+
+
 
 #popup1 .bg,
 #popup2 .bg,

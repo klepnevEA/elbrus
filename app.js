@@ -56,8 +56,15 @@ app.init = function(e)
 			// $('.00-slide').addClass('xclmHidden');								
 
 		} else if (menu == '2') {
-			$('#menu>li').removeClass('xclmHidden');							
-			// $('.00-slide').addClass('xclmHidden');
+			$('#menu>li').addClass('xclmHidden');							
+			$('.00-slide').removeClass('xclmHidden');
+			$('.101-slide').removeClass('xclmHidden');
+			$('.105-slide').removeClass('xclmHidden');
+			$('.112-slide').removeClass('xclmHidden');
+			$('.118-slide').removeClass('xclmHidden');
+			$('.48-slide').removeClass('xclmHidden');			
+			$('.301-slide').removeClass('xclmHidden');
+			$('.302-slide').removeClass('xclmHidden');	
 			$('#menu').addClass('menu_2');
 			$('#menu').removeClass('menu_1');								
 		}
